@@ -281,6 +281,7 @@ public class InvoiceFrame extends javax.swing.JFrame {
   
     public void setInvoices(ArrayList<Invoice> invoices) {
         this.invoices = invoices;
+        
     }
 
      public InvoicesTableModel getInvoicesTableModel() {
